@@ -2,6 +2,7 @@
 
 An MCP server providing a range of cryptocurrency technical analysis indicators and strategies, empowering AI trading agents to efficiently analyze market trends and develop robust quantitative strategies.
 
+[![smithery badge](https://smithery.ai/badge/@kukapay/crypto-indicators-mcp)](https://smithery.ai/server/@kukapay/crypto-indicators-mcp)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
@@ -19,6 +20,14 @@ An MCP server providing a range of cryptocurrency technical analysis indicators 
 
 - [Node.js](https://nodejs.org/) (v18.x or higher)
 - npm (v8.x or higher)
+
+### Installing via Smithery
+
+To install Crypto Indicators MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/crypto-indicators-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/crypto-indicators-mcp --client claude
+```
 
 ### Steps
 
@@ -174,4 +183,3 @@ Give me the RSI strategy signals for ETH/USDT on a 4-hour timeframe with a perio
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
