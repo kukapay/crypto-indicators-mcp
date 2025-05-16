@@ -1,0 +1,21 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - exchangeName
+    properties:
+      exchangeName:
+        type: string
+        default: binance
+        description: The ccxt exchange id to use for fetching OHLCV data
+    description: Configuration for the Crypto Indicators MCP server
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'node', args: ['index.js'], env: { EXCHANGE_NAME: config.exchangeName } })
+  exampleConfig:
+    exchangeName: binance
