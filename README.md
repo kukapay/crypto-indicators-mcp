@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-crypto-indicators-mcp-badge.png)](https://mseep.ai/app/kukapay-crypto-indicators-mcp)
+
 # Crypto Indicators MCP Server
 
 An MCP server providing a range of cryptocurrency technical analysis indicators and strategies, empowering AI trading agents to efficiently analyze market trends and develop robust quantitative strategies.
