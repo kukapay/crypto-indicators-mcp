@@ -15,6 +15,10 @@ For more crypto-related MCP servers, see the [Kukapay MCP servers](https://githu
 - **Flexible Data Source**: Defaults to Binance, configurable to any `ccxt`-supported exchange.
 - **Modular Design**: Indicators and strategies are categorized for easy maintenance.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/kukapay-crypto-indicators-mcp).
+
 ## Installation
 
 ### Prerequisites
